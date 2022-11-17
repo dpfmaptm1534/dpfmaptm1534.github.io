@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaeWon's Protfolio</title>
+    <meta name="author" contetn="Jaewon">
+    <meta name="descrption" content ="백엔드 개발자">
+    <link rel="icon" href="./images/fish.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/939ba41449.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div id="top_menu">
+        <ul id="menu_ul">
+            <li class="menu_ct"><a href="./index.html"class="menu_ct_li">홈</a></li>
+            <li class="menu_ct"><a href="./과제2.html"class="menu_ct_li">이력서</a></li>
+            <li class="menu_ct"><a href="./과제1.html"class="menu_ct_li">기사</a></li>
+            <li class="menu_ct"><a href="./과제3.html"class="menu_ct_li">즐겨찾기</a></li>
+            <li class="menu_ct"><a href="./과제4.html"class="menu_ct_li">제품상세페이지</a></li>
+            <li class="menu_ct"><a href="./과제5.html"class="menu_ct_li">클론코딩과제</a></li>
+            <li class="menu_ct"><a href="./ani.html"class="menu_ct_li">애니메이션</a></li>
+            <li class="menu_ct"><a href="./portfolio.html"class="menu_ct_li">포트폴리오</a></li>
+        </ul>
+    </div>
+
+    <!-- Navbar 시작 -->
+    <nav id="navbar" class="ggg">
+        <div class="navbar__logo">
+            <i class="fa-solid fa-user"></i>
+            <a href="#">jaewon</a>
+        </div>
+        <!-- css이름주는 방식에대한 내용 BEM 나중에 검색해볼것 -->
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-link="#home">홈</li>
+            <li class="navbar__menu__item" data-link="#about">내 소개</li>
+            <li class="navbar__menu__item" data-link="#skills">기슐</li>
+            <li class="navbar__menu__item" data-link="#work">경력</li>
+            <li class="navbar__menu__item" data-link="#testimonials">프로젝트</li>
+            <li class="navbar__menu__item" data-link="#contact">추천서</li>
+        </ul>
+        <!-- 버튼 시작 -->
+        <button class="navbar__toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <!-- 버튼 끝 -->
+    </nav>
+    <!-- Navbar 끝 -->
+
+
+    <!-- Home 시작 -->
+    <section id="home">
+        <div class="home__container">
+            <img src="./images/logo.png" alt="jw's photo" class="home__avatar">
+            <h1 class="home__title">Think Better, Live Better</h1>
+            <h2 class="home__description">해양환경 ai개발자</h2>
+            <button class="home__contact" >#COLLECTING #RECYCLING</button>
+        </div>
+    </section>
+    <!-- Home 끝 -->
+
+    
+    <!-- 내 소개 시작 -->
+    <section id="about" class="section section__container">
+        <h1>내 소개</h1>
+        <p>
+            백엔드 개발자
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                </div>
+                <h2 class="major__title">프론트엔드</h2>
+                <div class="major__description"> HTML,CSS,JavaScript,TypeScript</div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <h2 class="major__title">백엔드</h2>
+                <div class="major__description">Javascript,Java,NodeJS,c#,Spring</div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <h2 class="major__title">모바일</h2>
+                <div class="major__description"> Android,IOS,React Native,Flutter,Kotlin</div>
+            </div>
+        </div>
+        <div class="about__jobs">
+            <div class="job">
+                <img src="./images/samsung.jpg" alt="회사 로고">
+                <div class="job__description">
+                <p class="job__name">
+                    웹 에이전시 디자이너
+                </p>
+                <p class="job__period">
+                    2021.03.21~2022.05.31
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- 내 소개 끝 -->
+
+     <!-- 기술 시작 -->
+     <section id="skills" class="section">
+        <div class="section__container">
+            <h1>기술</h1>
+            <h2>소개</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique enim explicabo ratione quo perferendis ex, nisi repellendus nobis in error ullam cupiditate quaerat nihil quis porro ipsum suscipit, laudantium possimus?
+            </p>
+            <br><br><br>
+            <div class="skillset">
+                <h3 class="skillset_title">language</h3>
+                <br>
+                <div class="skillset__left">
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/java.png" alt="">
+                        <div class="skill__description">
+                            <span>Java</span>
+                            <p><span>95%</span></p>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/python.png" alt="">
+                        <div class="skill__description">
+                            <span>Python</span>
+                            <p><span>95%</span></p>
+                        </div>
+                        <div class="skill__bar">¬ø
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/mysql.png" alt="">
+                        <div class="skill__description">
+                            <span>MySQL</span>
+                            <p><span>95%</span></p>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/html-5.png" alt="">
+                        <div class="skill__description">
+                            <span>HTML</span>
+                            <p><span>95%</span></p>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/css.png" alt="">
+                        <div class="skill__description">
+                            <span>CSS</span>
+                            <p><span>95%</span></p>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/java-script.png" alt="">
+                        <div class="skill__description">
+                            <span>JavaScript</span>
+                            <p><span>95%</span></p>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>   
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/linux.png" alt="">
+                        <div class="skill__description">
+                            <span>Linux</span>
+                            <p><span>95%</span></p>
+
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>   
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/jsp.png" alt="">
+                        <div class="skill__description">
+                            <span>JSP</span>
+                            <p><span>95%</span></p>
+
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>   
+                    <div class="skill">
+                        <img class="skill_logo" src="./images/spring-logo.png" alt="">
+                        <div class="skill__description">
+                            <span>Spring</span>
+                            <p><span>95%</span></p>
+
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>   
+                </div>
+
+                    <br><br><br>
+                    <h3 class="skillset_title">Tools</h3>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/IntelliJ_IDEA_Icon.png" alt="">
+                            <div class="skill__description">
+                                <span>IntelliJ</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/eclipse.png" alt="">
+                            <div class="skill__description">
+                                <span>Eclipse</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/vscode.png" alt="">
+                            <div class="skill__description">
+                                <span>VSCode</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/sourcetree.png" alt="">
+                            <div class="skill__description">
+                                <span>SourceTree</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/slack.png" alt="">
+                            <div class="skill__description">
+                                <span>Slack</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/github.png" alt="">
+                            <div class="skill__description">
+                                <span>GitHUB</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                    <br><br><br>
+                
+                    <h3 class="skillset__title">Etc</h3>
+                    <div class="etc">
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/photoshop.png" alt="">
+                            <div class="skill__description">
+                                <span>Photoshop</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/premierepro.png" alt="">
+                            <div class="skill__description">
+                                <span>Premiere Pro</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/aftereffect.png" alt="">
+                            <div class="skill__description">
+                                <span>After Effects</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img class="skill_logo" src="./images/maya.png" alt="">
+                            <div class="skill__description">
+                                <span>Maya</span>
+    
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill_value"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 기술 끝 -->
+        <!-- 프로젝트 -->
+        <section id="work" class="section">
+            <div class="section__container">
+                <h2>내 작업실</h2>
+                <h3>프로젝트</h3>
+                <div class="work__categories">
+                    <button class="category__btn" data-filter="*">
+                        전체 <span class="category__count">10</span>
+                    </button>
+                    <button class="category__btn" data-filter="front-end">
+                        프론트엔드 <span class="category__count">5</span>
+                    </button>
+                    <button class="category__btn" data-filter="back-end">
+                        백엔드 <span class="category__count">3</span>
+                    </button>
+                    <button class="category__btn" data-filter="mobile">
+                        모바일 <span class="category__count">1</span>
+                    </button>
+                </div>
+                <div class="abc">
+                        <div class="work__projects">
+                            <a href="#" class="project" target="blank" data-type="front-end">
+                                <img src="./images/proimg.jpg" alt="" class="project__img"> 
+                                <div class="project__description">
+                                    <h3>Youtube site</h3>
+                                    <span>Clone coding 아주 똑같음</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work__projects">  
+                            <a href="#" class="project" target="blank" data-type="front-end">
+                                <img src="./images/proimg.jpg" alt="" class="project__img"> 
+                                <div class="project__description">
+                                    <h3>트리플 클론코딩</h3>
+                                    <span>Clone coding 아주 똑같음</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work__projects">        
+                            <a href="#" class="project" target="blank" data-type="mobile">
+                                <img src="./images/proimg.jpg" alt="" class="project__img"> 
+                                <div class="project__description">
+                                    <h3>여기어때</h3>
+                                    <span>Clone coding 아주 똑같음</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work__projects">    
+                            <a href="#" class="project" target="blank" data-type="front-end">
+                                <img src="./images/proimg.jpg" alt="" class="project__img"> 
+                                <div class="project__description">
+                                    <h3>Naver</h3>
+                                    <span>Clone coding 아주 똑같음</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work__projects">
+                            <a href="#" class="project" target="blank" data-type="back-end">
+                                <img src="./images/proimg.jpg" alt="" class="project__img"> 
+                                <div class="project__description">
+                                    <h3>야놀자</h3>
+                                    
+                                    <span>Clone coding 아주 똑같음</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work__projects">
+                            <a href="#" class="project" target="blank" data-type="back-end">
+                                <img src="./images/proimg.jpg" alt="" class="project__img"> 
+                                <div class="project__description">
+                                    <h3>직방 클론코딩</h3>
+                                    <span>Clone coding 아주 똑같음</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- 프로젝트 끝 -->
+            <!-- 추천서 시작 -->
+    <section id="testimonials" class="section">
+        <div class="section__container">
+            <h1>추천서</h1>
+            <h3>이분들은 저를 보고 짱이라고 했어요</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="./images/people1.jpg" alt="" class="testimonial__avatar">
+                    <div class="testimonial__speech-bubble">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, numquam est, qui quisquam odit exercitationem iusto commodi eveniet, sed autem possimus unde doloribus quo corporis culpa! Placeat eius illum ullam?
+                        </p>
+                        <p class="name"><a href="">이재용</a> / 삼성</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img src="./images/people1.jpg" alt="" class="testimonial__avatar">
+                    <div class="testimonial__speech-bubble">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, numquam est, qui quisquam odit exercitationem iusto commodi eveniet, sed autem possimus unde doloribus quo corporis culpa! Placeat eius illum ullam?
+                        </p>
+                        <p class="name"><a href=""></a> / 삼성</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 추천서 끝 -->
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <h1 class="contact__title">연락주세요</h1>
+            <h2 class="contact__email">dpfmaptm1534@naver.com</h2>
+            <div class="contact__links">
+                <a href="#" target="_blank">
+                    <i class ="fa-brands fa-github"></i>
+                </a>
+                <a href="#" target="blank">
+                    <i class ="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <p class="contact__rights">
+                2022 jaewon - All rights reserved
+            </p>
+        </section>
+        <button class="arrow-up">
+                    <i class ="fa-solid fa-arrow-up"></i>    
+        </button>
+        </body>
+        </html>
+    
